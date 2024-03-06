@@ -1,24 +1,23 @@
 {
     "name": "hou-swoole/db",
-    "description": "A db component for Houoole.",
+    "description": "A db component for houoole.",
     "type": "library",
     "license": "Apache-2.0",
     "keywords": [
         "php",
         "swoole",
         "coroutine",
-        "simple",
-        "Houoole",
+        "houoole",
         "db"
     ],
     "authors": [
         {
-            "name": "Luffy",
-            "email": "52o@qq52o.cn"
+            "name": "Amos",
+            "email": "amos@houjit.com"
         }
     ],
     "require": {
-        "php": ">=7.1",
+        "php": ">=7.4",
         "ext-swoole": ">=4.4"
     },
     "require-dev": {
@@ -29,7 +28,7 @@
     },
     "autoload": {
         "psr-4": {
-            "houoole\\DB\\": "src/"
+            "houoole\\db\\": "src/"
         }
     },
     "config": {

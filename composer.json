@@ -1,5 +1,5 @@
 {
-    "name": "hou-swoole/db",
+    "name": "houjit/db",
     "description": "A db component for houoole.",
     "type": "library",
     "license": "Apache-2.0",

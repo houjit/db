@@ -28,9 +28,9 @@ class DB
     public function __construct($config = null)
     {
         if (! empty($config)) {
-            $this->pool = \Houoole\DB\PDO::getInstance($config);
+            $this->pool = \houoole\db\PDO::getInstance($config);
         } else {
-            $this->pool = \Houoole\DB\PDO::getInstance();
+            $this->pool = \houoole\db\PDO::getInstance();
         }
     }
 
